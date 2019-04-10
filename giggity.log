@@ -1,0 +1,888 @@
+ewerrnop03-13-201912:00 PM01:00 PM12:00 PM01:00 PMgfdgfgfdgfdgdewrrfsdffewrwdfdsfdsfdsfsdsfdsfdsfSubmit Gig RequestsaveGigArrayArray
+(
+    [title] => dfddf
+    [description] => nop
+    [date] => 03-05-2019
+    [start_time] => 12:00 PM
+    [end_time] => 01:00 PM
+    [band_start] => 12:00 PM
+    [band_end] => 01:00 PM
+    [location] => fdf
+    [who] => fsd
+    [contact] => sdffd
+    [cause] => ewrr
+    [url] => dsfs
+    [event_history] => fsdff
+    [arrestable] => ewrw
+    [people_of_color] => dfdsf
+    [relevant_communities] => dsf
+    [blo_role] => dsfs
+    [other_groups] => dsfdsf
+    [other] => dsf
+    [submit] => Submit Gig Request
+    [action] => saveGig
+    [data] => Array
+        (
+            [title] => dfddf
+            [description] => nop
+            [date] => 03-05-2019
+            [start_time] => 12:00 PM
+            [end_time] => 01:00 PM
+            [band_start] => 12:00 PM
+            [band_end] => 01:00 PM
+            [location] => fdf
+            [who] => fsd
+            [contact] => sdffd
+            [cause] => ewrr
+            [url] => dsfs
+            [event_history] => fsdff
+            [arrestable] => ewrw
+            [people_of_color] => dfdsf
+            [relevant_communities] => dsf
+            [blo_role] => dsfs
+            [other_groups] => dsfdsf
+            [other] => dsf
+            [submit] => Submit Gig Request
+            [action] => saveGig
+        )
+
+)
+Array
+(
+    [title] => xczc
+    [description] => nop
+    [date] => 03-05-2019
+    [start_time] => 12:00 PM
+    [end_time] => 01:00 PM
+    [band_start] => 12:00 PM
+    [band_end] => 01:00 PM
+    [location] => xzx
+    [who] => cxzc
+    [contact] => zxcx
+    [cause] => ewrr
+    [url] => 
+    [event_history] => fsdff
+    [arrestable] => ewrw
+    [people_of_color] => dfdsf
+    [relevant_communities] => dsf
+    [blo_role] => dsfs
+    [other_groups] => dsfdsf
+    [other] => dsf
+    [submit] => Submit Gig Request
+    [action] => saveGig
+    [data] => Array
+        (
+            [title] => xczc
+            [description] => nop
+            [date] => 03-05-2019
+            [start_time] => 12:00 PM
+            [end_time] => 01:00 PM
+            [band_start] => 12:00 PM
+            [band_end] => 01:00 PM
+            [location] => xzx
+            [who] => cxzc
+            [contact] => zxcx
+            [cause] => ewrr
+            [url] => 
+            [event_history] => fsdff
+            [arrestable] => ewrw
+            [people_of_color] => dfdsf
+            [relevant_communities] => dsf
+            [blo_role] => dsfs
+            [other_groups] => dsfdsf
+            [other] => dsf
+            [submit] => Submit Gig Request
+            [action] => saveGig
+        )
+
+)
+{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:07:40 America/Los_Angeles] Failed to connect to database!
+{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:10:26 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/blo/public_html/private/giggity/backend/requests.php on line 292
+{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:11:54 America/Los_Angeles] Failed to connect to database!
+{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:12:10 America/Los_Angeles] Failed to connect to database!
+{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig","data":{"title":"xczc","description":"nop","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"xzx","who":"cxzc","contact":"zxcx","cause":"ewrr","url":"","event_history":"fsdff","arrestable":"ewrw","people_of_color":"dfdsf","relevant_communities":"dsf","blo_role":"dsfs","other_groups":"dsfdsf","other":"dsf","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:13:02 America/Los_Angeles] Failed to connect to database!
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:52:03 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 15:52:04 America/Los_Angeles] Error calling POST https://www.googleapis.com/calendar/v3/calendars/9ap01kto79gs6jddoi8d1e4b38@group.calendar.google.com/events: (400) The specified time range is empty.
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:56:41 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 15:56:41 America/Los_Angeles] Error calling POST https://www.googleapis.com/calendar/v3/calendars/9ap01kto79gs6jddoi8d1e4b38@group.calendar.google.com/events: (400) The specified time range is empty.
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 15:56:58 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 15:56:59 America/Los_Angeles] Error calling POST https://www.googleapis.com/calendar/v3/calendars/9ap01kto79gs6jddoi8d1e4b38@group.calendar.google.com/events: (400) The specified time range is empty.
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:04:56 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/blo/public_html/private/giggity/backend/requests.php on line 112
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:05:32 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 16:05:32 America/Los_Angeles] Error calling POST https://www.googleapis.com/calendar/v3/calendars/9ap01kto79gs6jddoi8d1e4b38@group.calendar.google.com/events: (400) The specified time range is empty.
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:07:26 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 16:07:26 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1436
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1436/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1436/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1436/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:08:12 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 16:08:12 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1437
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1437/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1437/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1437/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+[17-Mar-2019 16:08:12 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1437
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1437/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1437/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1437/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:10:40 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 16:10:40 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1438
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1438/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1438/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1438/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+[17-Mar-2019 16:10:40 America/Los_Angeles] 2019-03-05
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:11:28 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /home/blo/public_html/private/giggity/backend/requests.php on line 357
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:12:05 America/Los_Angeles] Failed to connect to database!
+[17-Mar-2019 16:12:05 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1439
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1439/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1439/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1439/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+[17-Mar-2019 16:12:05 America/Los_Angeles] woaah
+[17-Mar-2019 16:12:05 America/Los_Angeles] 2019-03-05
+[17-Mar-2019 16:12:05 America/Los_Angeles] 16:00
+[17-Mar-2019 16:12:05 America/Los_Angeles] 13:00
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:22:45 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => Proposed: This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1440
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1440/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1440/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1440/Maybe
+
+EVENT TIME: 12:00 - 13:00
+
+MEET TIME: 16:00
+
+BAND PLAY TIME: 12:00 - 13:00
+
+LOCATION: fdsf
+
+TACTICAL: 
+
+MUSICAL: 
+
+COLORS: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+---=== DETAILS ===---
+
+DESCRIPTION: fdssdf
+
+WHO: sdfsf
+
+CONTACT: dsfs
+
+URL: fds
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+[17-Mar-2019 16:22:45 America/Los_Angeles] woaah
+[17-Mar-2019 16:22:45 America/Los_Angeles] 2019-03-05
+[17-Mar-2019 16:22:45 America/Los_Angeles] meet_time
+[17-Mar-2019 16:22:45 America/Los_Angeles] 16:00
+[17-Mar-2019 16:22:45 America/Los_Angeles] 13:00
+[17-Mar-2019 16:22:45 America/Los_Angeles] 12:00
+[17-Mar-2019 16:22:45 America/Los_Angeles] 13:00
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:25:18 America/Los_Angeles] Google_Event Object
+(
+    [__creatorType:protected] => Google_EventCreator
+    [__creatorDataType:protected] => 
+    [creator] => 
+    [__organizerType:protected] => Google_EventOrganizer
+    [__organizerDataType:protected] => 
+    [organizer] => 
+    [summary] => This is a test
+    [id] => 
+    [__attendeesType:protected] => Google_EventAttendee
+    [__attendeesDataType:protected] => array
+    [attendees] => 
+    [htmlLink] => 
+    [recurrence] => 
+    [__startType:protected] => Google_EventDateTime
+    [__startDataType:protected] => 
+    [start] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T16:00:00-08:00
+        )
+
+    [etag] => 
+    [location] => fdsf
+    [recurringEventId] => 
+    [__gadgetType:protected] => Google_EventGadget
+    [__gadgetDataType:protected] => 
+    [gadget] => 
+    [status] => 
+    [updated] => 
+    [description] => Gig link: http://brassliberation.org/private/giggity/#/gigs/1441
+
+Set Availability:
+	Available:   http://brassliberation.org/private/giggity/#/gigs/1441/Yes
+	Unavailable: http://brassliberation.org/private/giggity/#/gigs/1441/No
+	Maybe:       http://brassliberation.org/private/giggity/#/gigs/1441/Maybe
+
+LOCATION: fdsf
+
+FACILITATOR: 
+
+WHO'S COMING: 
+	Yes: 
+	Maybe: 
+	No: 
+
+NOTES: 
+
+
+    [iCalUID] => 
+    [__extendedPropertiesType:protected] => Google_EventExtendedProperties
+    [__extendedPropertiesDataType:protected] => 
+    [extendedProperties] => 
+    [endTimeUnspecified] => 
+    [sequence] => 
+    [visibility] => 
+    [guestsCanModify] => 
+    [__endType:protected] => Google_EventDateTime
+    [__endDataType:protected] => 
+    [end] => Google_EventDateTime Object
+        (
+            [date] => 
+            [timeZone] => America/Los_Angeles
+            [dateTime] => 2019-03-05T13:00:00-08:00
+        )
+
+    [attendeesOmitted] => 
+    [kind] => 
+    [locked] => 
+    [created] => 
+    [colorId] => 
+    [anyoneCanAddSelf] => 
+    [__remindersType:protected] => Google_EventReminders
+    [__remindersDataType:protected] => 
+    [reminders] => 
+    [guestsCanSeeOtherGuests] => 
+    [__originalStartTimeType:protected] => Google_EventDateTime
+    [__originalStartTimeDataType:protected] => 
+    [originalStartTime] => 
+    [guestsCanInviteOthers] => 
+    [transparency] => 
+    [privateCopy] => 
+)
+
+[17-Mar-2019 16:25:18 America/Los_Angeles] woaah
+[17-Mar-2019 16:25:18 America/Los_Angeles] 2019-03-05
+[17-Mar-2019 16:25:18 America/Los_Angeles] meet_time
+[17-Mar-2019 16:25:18 America/Los_Angeles] 16:00
+[17-Mar-2019 16:25:18 America/Los_Angeles] 13:00
+[17-Mar-2019 16:25:18 America/Los_Angeles] 12:00
+[17-Mar-2019 16:25:18 America/Los_Angeles] 13:00
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:32:30 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'i' (T_STRING) in /home/blo/public_html/private/giggity/backend/requests.php on line 118
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:36:22 America/Los_Angeles] TYPE  
+[17-Mar-2019 16:36:22 America/Los_Angeles] TYPE2 gig 12:00 PM
+{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig","data":{"title":"This is a test","description":"fdssdf","date":"03-05-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"fdsf","who":"sdfsf","contact":"dsfs","cause":"dsfs","url":"fds","event_history":"sdfs","arrestable":"sdf","people_of_color":"","relevant_communities":"","blo_role":"dfsfdf","other_groups":"","other":"","submit":"Submit Gig Request","action":"saveGig"}}[17-Mar-2019 16:39:57 America/Los_Angeles] TYPE  
+[17-Mar-2019 16:39:57 America/Los_Angeles] TYPE2 gig 12:00 PM
+[17-Mar-2019 16:39:57 America/Los_Angeles] Array
+(
+    [0] => title='This is a test'
+    [1] => description='fdssdf'
+    [2] => date='2019-03-05'
+    [3] => start_time='12:00'
+    [4] => end_time='13:00'
+    [5] => meet_time='12:00'
+    [6] => band_start='12:00'
+    [7] => band_end='13:00'
+    [8] => location='fdsf'
+    [9] => who='sdfsf'
+    [10] => contact='dsfs'
+    [11] => details=''
+    [12] => tactical=''
+    [13] => musical=''
+    [14] => approved=''
+    [15] => public_description=''
+    [16] => notes=''
+    [17] => colors=''
+    [18] => type='gig'
+    [19] => url='fds'
+)
+
+{"title":"Volx kuche free vegan dinner 6 year anniversary ","description":"We do a free vegan dinner twice a month  inspired by the free dinner we used to do at dolores\/19th. The purpose is to create community and foster mutual aid. March 28th is our 6 year anniversary","date":"03-28-2019","start_time":"06:00 PM","end_time":"10:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 and 16 in the mission","who":"Volx kuche collective ","contact":"sashapupenkov@gmail.com 4157450351","cause":"https:\/\/youtu.be\/4raE4WnoJ6o\r\n\r\nHere is our manifesto","url":"Www.vokusf.org","event_history":"See youtube video. ","arrestable":"No","has_permit":"","cops":"","people_of_color":"We are a volunteer based horizontal collective. People of all sorts float in and out of the events based on their desires","relevant_communities":"Full involvement ","blo_role":"To raise spirits and help celebrate community","other_groups":"Yes, shotwell, jon from pansy division, screaming bloody marys","sound":"","other":"Just our thanx for considering. Even if you dont play, please come celebrate with us!","submit":"Submit Gig Request","action":"saveGig","data":{"title":"Volx kuche free vegan dinner 6 year anniversary ","description":"We do a free vegan dinner twice a month  inspired by the free dinner we used to do at dolores\/19th. The purpose is to create community and foster mutual aid. March 28th is our 6 year anniversary","date":"03-28-2019","start_time":"06:00 PM","end_time":"10:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 and 16 in the mission","who":"Volx kuche collective ","contact":"sashapupenkov@gmail.com 4157450351","cause":"https:\/\/youtu.be\/4raE4WnoJ6o\r\n\r\nHere is our manifesto","url":"Www.vokusf.org","event_history":"See youtube video. ","arrestable":"No","has_permit":"","cops":"","people_of_color":"We are a volunteer based horizontal collective. People of all sorts float in and out of the events based on their desires","relevant_communities":"Full involvement ","blo_role":"To raise spirits and help celebrate community","other_groups":"Yes, shotwell, jon from pansy division, screaming bloody marys","sound":"","other":"Just our thanx for considering. Even if you dont play, please come celebrate with us!","submit":"Submit Gig Request","action":"saveGig"}}{"title":"VOLX KUCHE 6 YEAR ANNIVERSARY","description":"volx kuche is a free dinner inspired by the free dinner at 19\/dolores in the 90s and vokus in the european squat scene","date":"03-28-2019","start_time":"06:00 PM","end_time":"11:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 & 16 in the mission","who":"voku general collective","contact":"sashapupenkov@gmail.com 4157450351","cause":"to promote solidarity, mutual aid, and community","url":"https:\/\/www.vokusf.org\/","event_history":"https:\/\/www.youtube.com\/watch?v=4raE4WnoJ6o&t=6s\r\n\r\nthe first 75% of video is our manifesto","arrestable":"no","has_permit":"","cops":"","people_of_color":"voku is a volunteer, horizontal collective. every sort of people are involved in the creation of events","relevant_communities":"complete involvement. the only restriction is the individuals desire ","blo_role":"raise spirits, inspire dance, help celebrate community","other_groups":"shotwell\r\njon from pansy division\r\nscreaming bloody marys\r\nTBA","sound":"","other":"thank you for your consideration. if you cant make it to play. we would be happy to have members come and celebrate with us individually.\r\n\r\nthank you","submit":"Submit Gig Request","action":"saveGig","data":{"title":"VOLX KUCHE 6 YEAR ANNIVERSARY","description":"volx kuche is a free dinner inspired by the free dinner at 19\/dolores in the 90s and vokus in the european squat scene","date":"03-28-2019","start_time":"06:00 PM","end_time":"11:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 & 16 in the mission","who":"voku general collective","contact":"sashapupenkov@gmail.com 4157450351","cause":"to promote solidarity, mutual aid, and community","url":"https:\/\/www.vokusf.org\/","event_history":"https:\/\/www.youtube.com\/watch?v=4raE4WnoJ6o&t=6s\r\n\r\nthe first 75% of video is our manifesto","arrestable":"no","has_permit":"","cops":"","people_of_color":"voku is a volunteer, horizontal collective. every sort of people are involved in the creation of events","relevant_communities":"complete involvement. the only restriction is the individuals desire ","blo_role":"raise spirits, inspire dance, help celebrate community","other_groups":"shotwell\r\njon from pansy division\r\nscreaming bloody marys\r\nTBA","sound":"","other":"thank you for your consideration. if you cant make it to play. we would be happy to have members come and celebrate with us individually.\r\n\r\nthank you","submit":"Submit Gig Request","action":"saveGig"}}{"title":"6 year anniversary of volx kuche","description":"volx kuche is a free dinner inspired by the free dinner at 19\/dolores in the 90s and vokus in the european squat scene","date":"03-28-2019","start_time":"06:00 PM","end_time":"11:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 & 16 street","who":"volxkuche sf collective","contact":"sashapupenkov@gmail.com 4157450351","cause":"to promote solidarity, mutual aid, and community","url":"www.vokusf.org","event_history":"https:\/\/www.youtube.com\/watch?v=4raE4WnoJ6o&t=6s\r\n\r\nthe first 75% of video is our manifesto","arrestable":"no","has_permit":"","cops":"","people_of_color":"voku is a volunteer, horizontal collective. every sort of people are involved in the creation of events","relevant_communities":"complete involvement. the only restriction is the individuals desire ","blo_role":"raise spirits, inspire dance, help celebrate community","other_groups":"shotwell\r\njon from pansy division\r\nscreaming bloody marys\r\nTBA","sound":"","other":"thank you for your consideration. if you cant make it to play. we would be happy to have members come and celebrate with us individually.\r\n\r\nthank you","submit":"Submit Gig Request","action":"saveGig","data":{"title":"6 year anniversary of volx kuche","description":"volx kuche is a free dinner inspired by the free dinner at 19\/dolores in the 90s and vokus in the european squat scene","date":"03-28-2019","start_time":"06:00 PM","end_time":"11:00 PM","band_start":"07:00 PM","band_end":"07:20 PM","location":"110 julian btwn 15 & 16 street","who":"volxkuche sf collective","contact":"sashapupenkov@gmail.com 4157450351","cause":"to promote solidarity, mutual aid, and community","url":"www.vokusf.org","event_history":"https:\/\/www.youtube.com\/watch?v=4raE4WnoJ6o&t=6s\r\n\r\nthe first 75% of video is our manifesto","arrestable":"no","has_permit":"","cops":"","people_of_color":"voku is a volunteer, horizontal collective. every sort of people are involved in the creation of events","relevant_communities":"complete involvement. the only restriction is the individuals desire ","blo_role":"raise spirits, inspire dance, help celebrate community","other_groups":"shotwell\r\njon from pansy division\r\nscreaming bloody marys\r\nTBA","sound":"","other":"thank you for your consideration. if you cant make it to play. we would be happy to have members come and celebrate with us individually.\r\n\r\nthank you","submit":"Submit Gig Request","action":"saveGig"}}{"title":"Disrupt Inequality Rally and March","description":"2,000 members of SEIU Local 1021, IFPTE Local 21, other affiliates of the San Francisco Labor Council, the San Francisco Living Wage Coalition and Jobs with Justice San Francisco are rallying for workers rights and against the corporate greed that is fueling the growing income inequality.","date":"04-11-2019","start_time":"04:00 PM","end_time":"06:00 PM","band_start":"05:15 PM","band_end":"05:45 PM","location":"civic center in front of City Hall","who":"SEIU Local 1021, IFPTE Local 21, SF Labor Council, SF Living Wage Coalition, Jobs with Justice SF","contact":"one of the organizers - Karl Kramer, 415-863-1225, sflivingwage@riseup.net","cause":"to support union and public sector workers who are in a struggle for wage raises to try to stay in San Francisco or at lease afford the long commute while a series of tech IPOs are going to mint more than 15,000 new millionaires in the City at companies that are not paying their fair share in taxes and not taking responsiblity for their workers, such as at Uber, Lyft and other platforms for the gig economy","url":"https:\/\/www.seiu1021.org\/April11DisruptinequalitySF","event_history":"there have been a couple of previous rallies and this is the first rally and march in this campaign","arrestable":"yes","permit":"","cops":"","people_of_color":"many of the elected leadership and the rank-and-file shop stewards and leaders are people of color - they will be speaking from the stage and coordinating the march","relevant_communities":"African Americans have been fighting against racism in city employment and are mobilizing to highlight the racial inequalities in the income gap and the fight against further displacement from San Francisco","blo_role":"to fire up the crowd before the march and during the march","other_groups":"there will be djs and rappers who have not yet been confirmed","sound":"","other":"there will be a civil disobedience action at the end of the march but those risking arrest will be separate from the rest of the march","submit":"Submit Gig Request","action":"saveGig","data":{"title":"Disrupt Inequality Rally and March","description":"2,000 members of SEIU Local 1021, IFPTE Local 21, other affiliates of the San Francisco Labor Council, the San Francisco Living Wage Coalition and Jobs with Justice San Francisco are rallying for workers rights and against the corporate greed that is fueling the growing income inequality.","date":"04-11-2019","start_time":"04:00 PM","end_time":"06:00 PM","band_start":"05:15 PM","band_end":"05:45 PM","location":"civic center in front of City Hall","who":"SEIU Local 1021, IFPTE Local 21, SF Labor Council, SF Living Wage Coalition, Jobs with Justice SF","contact":"one of the organizers - Karl Kramer, 415-863-1225, sflivingwage@riseup.net","cause":"to support union and public sector workers who are in a struggle for wage raises to try to stay in San Francisco or at lease afford the long commute while a series of tech IPOs are going to mint more than 15,000 new millionaires in the City at companies that are not paying their fair share in taxes and not taking responsiblity for their workers, such as at Uber, Lyft and other platforms for the gig economy","url":"https:\/\/www.seiu1021.org\/April11DisruptinequalitySF","event_history":"there have been a couple of previous rallies and this is the first rally and march in this campaign","arrestable":"yes","permit":"","cops":"","people_of_color":"many of the elected leadership and the rank-and-file shop stewards and leaders are people of color - they will be speaking from the stage and coordinating the march","relevant_communities":"African Americans have been fighting against racism in city employment and are mobilizing to highlight the racial inequalities in the income gap and the fight against further displacement from San Francisco","blo_role":"to fire up the crowd before the march and during the march","other_groups":"there will be djs and rappers who have not yet been confirmed","sound":"","other":"there will be a civil disobedience action at the end of the march but those risking arrest will be separate from the rest of the march","submit":"Submit Gig Request","action":"saveGig"}}{"title":"Test fake","description":"dsf","date":"04-11-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sd","who":"sad","contact":"asd","cause":"sadsd","url":"asd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"Test fake","description":"dsf","date":"04-11-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sd","who":"sad","contact":"asd","cause":"sadsd","url":"asd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"Test fake","description":"dsf","date":"04-11-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sd","who":"sad","contact":"asd","cause":"sadsd","url":"asd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"Test fake","description":"dsf","date":"04-11-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sd","who":"sad","contact":"asd","cause":"sadsd","url":"asd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig","data":{"title":"faketst2","description":"dsf","date":"04-10-2019","start_time":"12:00 PM","end_time":"01:00 PM","band_start":"12:00 PM","band_end":"01:00 PM","location":"sdad","who":"sad","contact":"sad","cause":"sadsd","url":"sadd","event_history":"asd","arrestable":"sad","permit":"","cops":"","people_of_color":"sad","relevant_communities":"sad","blo_role":"asd","other_groups":"asd","sound_system":"","other":"asdasd","submit":"Submit Gig Request","action":"saveGig"}}{"title":"Sound the Alarm!","description":"We are Extinction Rebellion, and we declare that when our children call us to action, we will answer! \r\n\r\nJoin us on April 15th to rise up for a living future. We will not gather to beg our leaders to care. We will gather to declare that change is coming, whether our governments like it or not. This is an emergency and it's time we all started acting like it, adults included. So come out on April 15th as we raise our voices, our trumpets and cookware, bike bells, and boomboxes with the truth on our lips! to declare this emergency for what it is and to demand that our governments worldwide do the same. \r\n\r\nPLEASE BRING: \r\n- As many additional people as possible. \r\n- Noisemakers of every variety","date":"04-15-2019","start_time":"04:00 PM","end_time":"06:00 PM","band_start":"04:00 PM","band_end":"06:00 PM","location":"UN Plaza, SF -> 7th\/Mission","who":"Extinction Rebellion SF Bay Area","contact":"314 941 3650, iloveyoukeepgoing@pm.me","cause":"Environmental justice! We are sounding the alarm to government inaction on climate change and amplifying the voices & work of groups in the area who are working to protect indigenous peoples in the Amazon, resisting fossil fuel expansion (including keeping tar sands out of the Bay!!!), and building strong communities to secure healthy food for everyone.","url":"https:\/\/www.facebook.com\/events\/411044969659259\/","event_history":"From April 15th - April 22nd, Extinction Rebellion groups around the world will be hosting actions such as this to bring attention to the situation we find ourselves in and rally our communities to join an ongoing resistance in order to prevent our extinction.","arrestable":"Yes! (but only if you want)","permit":"","cops":"","people_of_color":"Our coordination team includes indigenous leaders from the area, our MC is a young latin@ woman from Youth vs Apocalypse, we hope to have Corrina Gould (Ohlone leader) open the event, and the rest of our speaker\/performer list is flush with folx of color including Isabella Zizi (Stand.earth), Maria Xiom\u00e1ra Dorsey (Brasil Solidarity Network), working to get Rupa Marya as well since we know she's attending. There are also POC XR volunteers in various roles.","relevant_communities":"We have reached out to local environmental justice groups Poder, GreenAction for Environmental Justice, and Literacy for Environmental Justice. Youth vs Apocalypse and Climate Change Collective will be attending and speaking. Idle No More SF and ","blo_role":"MAKE NOISE! :D There will be signals throughout the event for the crowd to \"Sound the alarm\" and we'd love you to toot your horns and bang your drums! We'll also be marching from UN Plaza to the Federal Bldg at 7th & Mission and it'd be great to get a funky groove to walk to if we have enough BLO members there.","other_groups":"Trying to get Rupa and the April Fishes to perform. Maria Xiom\u00e1ra Dorsey will be singing. deCoy Gallerina might be performing. Thrive Street Choir will be there and leading songs!","sound_system":"","other":"We MIGHT have a sound system. The kids have asked us to reach out to the police, but we haven't yet, but we will, so we marked that as a yes on this form.","submit":"Submit Gig Request","action":"saveGig","data":{"title":"Sound the Alarm!","description":"We are Extinction Rebellion, and we declare that when our children call us to action, we will answer! \r\n\r\nJoin us on April 15th to rise up for a living future. We will not gather to beg our leaders to care. We will gather to declare that change is coming, whether our governments like it or not. This is an emergency and it's time we all started acting like it, adults included. So come out on April 15th as we raise our voices, our trumpets and cookware, bike bells, and boomboxes with the truth on our lips! to declare this emergency for what it is and to demand that our governments worldwide do the same. \r\n\r\nPLEASE BRING: \r\n- As many additional people as possible. \r\n- Noisemakers of every variety","date":"04-15-2019","start_time":"04:00 PM","end_time":"06:00 PM","band_start":"04:00 PM","band_end":"06:00 PM","location":"UN Plaza, SF -> 7th\/Mission","who":"Extinction Rebellion SF Bay Area","contact":"314 941 3650, iloveyoukeepgoing@pm.me","cause":"Environmental justice! We are sounding the alarm to government inaction on climate change and amplifying the voices & work of groups in the area who are working to protect indigenous peoples in the Amazon, resisting fossil fuel expansion (including keeping tar sands out of the Bay!!!), and building strong communities to secure healthy food for everyone.","url":"https:\/\/www.facebook.com\/events\/411044969659259\/","event_history":"From April 15th - April 22nd, Extinction Rebellion groups around the world will be hosting actions such as this to bring attention to the situation we find ourselves in and rally our communities to join an ongoing resistance in order to prevent our extinction.","arrestable":"Yes! (but only if you want)","permit":"","cops":"","people_of_color":"Our coordination team includes indigenous leaders from the area, our MC is a young latin@ woman from Youth vs Apocalypse, we hope to have Corrina Gould (Ohlone leader) open the event, and the rest of our speaker\/performer list is flush with folx of color including Isabella Zizi (Stand.earth), Maria Xiom\u00e1ra Dorsey (Brasil Solidarity Network), working to get Rupa Marya as well since we know she's attending. There are also POC XR volunteers in various roles.","relevant_communities":"We have reached out to local environmental justice groups Poder, GreenAction for Environmental Justice, and Literacy for Environmental Justice. Youth vs Apocalypse and Climate Change Collective will be attending and speaking. Idle No More SF and ","blo_role":"MAKE NOISE! :D There will be signals throughout the event for the crowd to \"Sound the alarm\" and we'd love you to toot your horns and bang your drums! We'll also be marching from UN Plaza to the Federal Bldg at 7th & Mission and it'd be great to get a funky groove to walk to if we have enough BLO members there.","other_groups":"Trying to get Rupa and the April Fishes to perform. Maria Xiom\u00e1ra Dorsey will be singing. deCoy Gallerina might be performing. Thrive Street Choir will be there and leading songs!","sound_system":"","other":"We MIGHT have a sound system. The kids have asked us to reach out to the police, but we haven't yet, but we will, so we marked that as a yes on this form.","submit":"Submit Gig Request","action":"saveGig"}}

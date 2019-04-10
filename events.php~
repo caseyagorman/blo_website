@@ -1,0 +1,611 @@
+<?php $title = 'BLO - Events'; ?>
+<?php include('header.php'); ?>
+<?php
+$c = mysql_connect ( 'localhost', 'blo', 'BirayQua') or die('Could not connect: ' . mysql_error());
+mysql_select_db('blo') or die('Could not select database');
+
+  $sql = "SELECT webcal_entry.cal_mod_date FROM webcal_entry,webcal_site_extras WHERE webcal_entry.cal_create_by = 'admin' AND webcal_site_extras.cal_id = webcal_entry.cal_id AND webcal_site_extras.cal_name = 'publish' AND webcal_site_extras.cal_data = 'Publish in gigs list' ORDER BY cal_mod_date DESC";
+  $res = mysql_query ( $sql );
+  if ( $res ) {
+    $row = mysql_fetch_row ( $res );
+    $mod_date = $row[0];
+    $mod_unixtime = mktime(0,0,0,substr($mod_date,4,2),substr($mod_date,6,2),substr($mod_date,0,4));
+}
+    mysql_free_result ( $res );
+
+?>
+	  <h2>Events</h2>
+	  <small>...Band members: Please see <a href="http://brassliberation.org/calendar">private calendar</a> for meetings and other events...</small>
+      <h3>Upcoming Events:</h3> <small><i>(Last updated: <?php echo date("j F Y",$mod_unixtime)?>)</i></small>
+<table width='100%' cellpadding='2'>
+<?php
+  $oldgigs = array();
+
+  $sql = "SELECT webcal_entry.cal_id, webcal_entry.cal_date, webcal_entry.cal_time, webcal_entry.cal_duration, webcal_entry.cal_name FROM webcal_entry, webcal_entry_user, webcal_site_extras WHERE webcal_entry.cal_create_by = 'admin' AND webcal_entry.cal_id = webcal_entry_user.cal_id AND webcal_entry_user.cal_status IN ('A','W') AND webcal_site_extras.cal_id = webcal_entry_user.cal_id AND webcal_site_extras.cal_name = 'publish' AND webcal_site_extras.cal_data = 'Publish in gigs list' ORDER BY webcal_entry.cal_date,webcal_entry.cal_time";
+  $res = mysql_query ( $sql );
+
+// need to extract public description here in second SQL query
+
+  if ( $res ) {
+    while ( $row = mysql_fetch_row ( $res ) ) {
+		$untimed = 0;
+		$cal_id = $row[0];
+		$cal_date = $row[1];
+		$cal_time = $row[2];
+		if ($cal_time == '-1')  { // untimed event
+			$untimed = 1;
+			$cal_time = "000000";
+		}
+		$duration = $row[3];
+		$name = $row[4];
+		$sql2 = "SELECT cal_data FROM webcal_site_extras WHERE cal_id = $row[0] AND cal_name = 'public'";
+		$res2 = mysql_query ( $sql2 );
+		$row2 = mysql_fetch_row ( $res2 );
+		$public = $row2[0];
+		$sql3 = "SELECT cal_data FROM webcal_site_extras WHERE cal_id = $row[0] AND cal_name = 'location'";
+		$res3 = mysql_query ( $sql3 );
+		$row3 = mysql_fetch_row ( $res3 );
+		$location = $row3[0];
+		$sql4= "SELECT cal_data FROM webcal_site_extras WHERE cal_id = $row[0] AND cal_name = 'googlemap'";
+		$res4 = mysql_query ( $sql4 );
+		$row4 = mysql_fetch_row ( $res4 );
+		$googlemap = $row4[0];
+		$googlemap = preg_replace('/\&/', '&amp;', $googlemap);
+		$unixtime = mktime(substr($cal_time,0,2),substr($cal_time,2,2),substr($cal_time,4,2),substr($cal_date,4,2),substr($cal_date,6,2),substr($cal_date,0,4));
+		$today = date("Ymd",time());
+		$eventday = date("Ymd",$unixtime);
+		if ($eventday >= $today) {
+			$showtime = $untimed ? "" : date("g:ia ",$unixtime);
+			echo '<tr><td valign="top" style="width: 10%;"><h4 style="padding-top: 0px;">' . date("F j",$unixtime). "</h4></td> <td valign='top'><b>$name</b>";
+			echo "<br/>$public <small><a href='http://brassliberation.org/calendar/view_entry.php?id=$cal_id'>[band details]</a></small>";
+			if ($location != '') {
+				echo "<ul><li><strong>$showtime</strong></li><li><strong>Starting location:</strong> ". $location;
+				if ($googlemap != '') {
+					echo ' <a href="' . $googlemap . '"> [Google map]</a></li></ul>';
+				}
+			}	
+			echo '</td></tr>
+			';	
+		} else {
+		  $oldgigs[] = "<tr><td>" . date("M j, Y",$unixtime) . "</td> <td>" . $name . "</td></tr>
+		  ";
+		}
+	}
+    mysql_free_result ( $res );
+    mysql_free_result ( $res2 );
+  }
+mysql_close ( $c );
+?>
+</table>
+
+
+ <h3>Past Actions</h3>
+ <p>A list of some past events that BLO played at (Also see <a href="links.html">links</a> page for links to many of the organizations and groups that we have worked with).</p>
+      <table style="text-align: left; margin-left: auto; margin-right: auto;" border="0">
+        <tbody>
+          <tr style="font-weight: bold;">
+            <td style='width:108px'></td>
+            <td style='width:574px'></td>
+          </tr>
+          <tr style="font-weight: bold;">
+			<td></td>
+          </tr>
+
+<?php
+for ($i=count($oldgigs)+1;$i--;$i>0) {
+	echo $oldgigs[$i];
+}
+?>
+		<tr>
+			<td>March 2, 2007</td>
+			<td>Immigrant rights / anti-ICE rally and march with <a href="http://www.immigrantrights.org/">BAIRC</a> from 16th and Mission to Federal Building, SF</td>
+		</tr>
+		<tr>
+			<td>Feb 27, 2007</td>
+			<td>Fundraiser for <a href='http://www.sfclt.org/'>San Francisco Community Land Trust</a>, SF</td>
+		</tr>
+		<tr>
+			<td>Feb 20, 2007</td>
+			<td>Fat Tuesday (Mardi Gras) show at Makeout Room &amp; Cafe Revolution, SF</td>
+		</tr>
+		<tr>
+			<td>Feb 17, 2007</td>
+			<td>Memorial service for Tillie Olsen, First Congregational Church, Oakland</td>
+		</tr>
+		<tr>
+			<td>Feb 3, 2007</td>
+			<td><a href="http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&amp;friendID=110835159">Mandela Food Co-op</a> block party, West Oakland</td>
+		</tr>
+		<tr>
+			<td>Feb 1, 2007</td>
+			<td>BLO's 5th Year Birthday Bash, Balazo, SF</td>
+		</tr>
+		<tr>
+			<td>Jan 20, 2007</td>
+			<td>Skye's Birthday, SF</td>
+		</tr>
+		<tr>
+			<td>Jan 14, 2007</td>
+			<td><a href='http://alcatrazunion.com'>Ferry workers</a> support rally, SF</td>
+		</tr>
+		<tr>
+			<td>Jan 13, 2007</td>
+			<td>Shut down Guantanamo rally, SF</td>
+		</tr>
+		<tr>
+			<td>Jan 1, 2007</td>
+			<td>New Year's Extravaganza, Mission, BART, Oakland</td>
+		</tr>
+          <tr>
+			<td></td>
+          </tr>
+		<tr>
+			<td>Dec 11, 2006</td>
+			<td>Claremont Hotel Worker's Victory Party, Albany</td>
+		</tr>
+		<tr>
+			<td>Dec 15, 2006</td>
+			<td>Bernal Dwellings Head Start Pre-School, SF</td>
+		</tr>
+		<tr>
+			<td>Dec 9, 2006</td>
+			<td>Angela's Birthday, Balazo, SF</td>
+		</tr>
+		<tr>
+			<td>Dec 9, 2006</td>
+			<td>War resisters support march, SF</td>
+		</tr>
+		<tr>
+			<td>Dec 9, 2006</td>
+			<td><a href='http://alcatrazunion.com'>Ferry workers</a> support rally, SF</td>
+		</tr>
+		<tr>
+			<td>Dec 8, 2006</td>
+			<td>Carlos' Birthday, Sunrise Cafe, SF</td>
+		</tr>
+		<tr>
+			<td>Dec 4, 2006</td>
+			<td>Demonstration against AIPAC, Oakland</td>
+		</tr>
+		<tr>
+			<td>Nov 20, 2006</td>
+			<td>Oaxaca Uprising Solidarity Action, Mexican consulate, SF</td>
+		</tr>
+		<tr>
+			<td>Nov 13, 2006</td>
+			<td>Rally for Woodfin Hotel Workers, Emeryville</td>
+		</tr>
+		<tr>
+			<td>Nov 2, 2006</td>
+			<td>Dia de los Muertos, Mission, SF</td>
+		</tr>
+		<tr>
+			<td>Oct 30, 2006</td>
+			<td>Roving Halloween party, Mission, SF</td>
+		</tr>
+		<tr>
+			<td>Oct 21, 2006</td>
+			<td><a href='http://www.mtbs.com'>Modern Times</a> Bookstore Anniversary, SF</td>
+		</tr>
+		<tr>
+			<td>Oct 6-10, 2006</td>
+			<td><a href='http://www.honkfest.org'>HONK Festival</a> of activist street bands, Sommerville, MA</td>
+		</tr>
+		<tr>
+			<td>Sep 30, 2006</td>
+			<td>NLG Benefit, Berkeley</td>
+		</tr>
+		<tr>
+			<td>Sep 28, 2006</td>
+			<td><a href='http://www.workingeastbay.org'>EBASE</a> fundraiser, Oakland</td>
+		</tr>
+		<tr>
+			<td>Sep 24, 2006</td>
+			<td>Jesse going-away-party, SF</td>
+		</tr>
+		<tr>
+			<td>Sep 16, 2006</td>
+			<td>New Orleans Benefit Show with Loco Bloco and La Plebe, Balazo, SF</td>
+		</tr>
+		<tr>
+			<td>Sep 4, 2006</td>
+			<td>Alameda County Labor Rally, Oakland</td>
+		</tr>
+		<tr>
+			<td>Sep 4, 2006</td>
+			<td>Immigrant Rights March, SF</td>
+		</tr>
+		<tr>
+			<td>Aug 12, 2006</td>
+			<td>Lebanon March, SF City Hall</td>
+		</tr>
+		<tr>
+			<td>May 28, 2006</td>
+			<td>BLO marches in Oye Nike's Carneval Contingent, SF</td>
+		</tr>
+		<tr>
+			<td>May 6, 2006</td>
+			<td>Dress and Kala's Handfasting Party, outer space</td>
+		</tr>
+		<tr>
+			<td>May 5, 2006</td>
+			<td>Cinco de Mayo Show, Balazo Gallery, SF</td>
+		</tr>
+		<tr>
+			<td>May 1, 2006</td>
+			<td>May Day, General Strike and March for Immigrants Rights, SF</td>
+		</tr>
+		<tr>
+			<td>April 23, 2006</td>
+			<td>Immigrants Rights March, SF</td>
+		</tr>
+		<tr>
+			<td>April 21, 2006</td>
+			<td>Cesar Chavez and Earth Day Party, Cesar Chavez Elementary School, SF</td>
+		</tr>
+		<tr>
+			<td>April 21, 2006</td>
+			<td>Dance Down the Lockdown, Benefit for <a href='http://www.criticalresistance.org'>Critical Resistance</a> and PARC, SF</td>
+		</tr>
+		<tr>
+			<td>April 10, 2006</td>
+			<td>Immigrants Rights March, SF</td>
+		</tr>
+		<tr>
+			<td>March 25, 2006</td>
+			<td>Immigrant Rights Rally, Support for Hunger Strike, Federal Bldg, SF</td>
+		</tr>
+		<tr>
+			<td>March 20, 2006</td>
+			<td>Anti-War Action, Downtown SF (act against torture)</td>
+		</tr>
+		<tr>
+			<td>March 3, 2006</td>
+			<td>Benefit Party, Balazo Gallery, SF</td>
+		</tr>
+		<tr>
+			<td>Feb 25, 2006</td>
+			<td>Immigrants Rights Rally, Fruitvale, Oakland</td>
+		</tr>
+		<tr>
+			<td>Jan 21, 2006</td>
+			<td>Community Picket at Berkeley Honda</td>
+		</tr>
+          <tr>
+            <td></td>
+            <td style="vertical-align: top;"><img src="images/SEIU BLO 10-05.jpg" width="396" height="296" alt="" /></td>
+          </tr>
+          <tr>
+			<td></td>
+          </tr>
+
+          <tr>
+            <td>Nov 13, 2005</td>
+            <td>Presentation by Serbian queer feminist, Sunrise Cafe, SF</td>
+          </tr>
+          <tr>
+            <td>Nov 2, 2005</td>
+            <td>Dia de los Muertos procession,  SF  </td>
+          </tr>
+          <tr>
+            <td>Oct 29, 2005</td>
+            <td>Immigrant Rights protest against racist &quot;Minutemen&quot;, Sacramento  </td>
+          </tr>
+          <tr>
+            <td>Oct 26, 2005</td>
+            <td>Picket Line of SEIU United Healthcare Workers Strike Pacific Medical Center, SF </td>
+          </tr>
+          <tr>
+            <td>Oct 16, 2005</td>
+            <td><a href="http://www.indybay.org/news/2005/10/1773785.php">Poor People's March</a>, SF  </td>
+          </tr>
+          <tr>
+            <td>Sept 24, 2005</td>
+            <td>Anti-War March (ANSWER), SF</td>
+          </tr>
+          <tr>
+            <td>Aug 24, 2005</td>
+            <td>15th Anniversary of the San Fancisco Day Labor Program and dedication of new worker center, SF</td>
+          </tr>
+          <tr>
+            <td>May 29, 2005</td>
+            <td>Carnaval in SF</td>
+          </tr>
+          <tr>
+            <td>May 21, 2005</td>
+            <td>Beechwood School International Food Fair &amp;  Party, Menlo Park</td>
+          </tr>
+          <tr>
+            <td>May 19, 2005</td>
+            <td>Concert and Presentation with 4th grade class at East Bay  Conservation Corp Charter Elementary School, Oakland</td>
+          </tr>
+          <tr>
+            <td>May 14, 2005</td>
+            <td>Multi-Cultural Family Picnic - Leonard R.  Flynn Elementary School, SF</td>
+          </tr>
+          <tr>
+            <td>May 1, 2005</td>
+            <td>May Day Celebration &amp; Opening of CounterPULSE,  SF</td>
+          </tr>
+          <tr>
+            <td>Apr 3, 2005</td>
+            <td><a href="http://www.criticalresistance.org/">Critical Resistance</a> Fund Raiser, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 26, 2005</td>
+            <td>Benefit for a friend's medical expenses, Oakland</td>
+          </tr>
+          <tr>
+            <td>Mar 19, 2005</td>
+            <td>Anti-War March, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 18, 2005</td>
+            <td><a href="http://www.cultural-links.org/rpf.html">Radical Performance Fest</a>, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 16, 2005</td>
+            <td>Celebration of the Life of Rachel Corrie,  Berkeley</td>
+          </tr>
+          <tr>
+            <td>Jan 26, 2005</td>
+            <td>March &amp; Rally in Protest of Jerry Brown's  Curfew Policy Organized by Critical Resistance,  Oakland</td>
+          </tr>
+          <tr>
+            <td>Jan 22, 2005</td>
+            <td>Pro-Choice March, SF</td>
+          </tr>
+          <tr>
+            <td>Jan 20 , 2005</td>
+            <td>Counter-Inaugural March Protesting George  W. Bush, SF</td>
+          </tr>
+          <tr>
+            <td>&nbsp;, 2005</td>
+            <td><img src="images/coffeeshop.jpg" alt="picture" style="width: 400px; height: 273px;" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Dec 18, 2004</td>
+            <td>Picket at Claremont Hotel in support of <a href="http://www.unitehere.org">UNITE-HERE Local 2850</a>, Oakland</td>
+          </tr>
+          <tr>
+            <td>Nov 20, 2004</td>
+            <td>Moving picket at  Hotels in support of locked-out workers from <a href="http://www.unitehere.org">UNITE-HERE Local 2</a>, SF</td>
+          </tr>
+          <tr>
+            <td>Nov 13, 2004</td>
+            <td>Rally with <a href="http://www.justiceinpalestine.net">Justice in Palestine Coalition</a>, "Targets of Empire", SF</td>
+          </tr>
+          <tr>
+            <td>Nov 2, 2004</td>
+            <td>Dia de Los Muertos Procession with Oya Nike Botanica/Cultural Center, SF </td>
+          </tr>
+          <tr>
+            <td>Oct 22, 2004</td>
+            <td>Moving picket at  Hotels in support of locked-out workers from <a href="http://www.unitehere.org">UNITE-HERE Local 2</a>, SF</td>
+          </tr>
+          <tr>
+            <td>Oct 17, 2004</td>
+            <td>Bernal Heights &quot;Fiesta on the Hill,&quot; SF</td>
+          </tr>
+          <tr>
+            <td>May 30, 2004</td>
+            <td>Carnaval with Pocos Locos of <a href="http://www.locobloco.org">Loco Bloco</a>, SF</td>
+          </tr>
+          <tr>
+            <td>May 1, 2004</td>
+            <td>Multi-cultural family picnic at Leonard R. Flynn Elementary School, SF </td>
+          </tr>
+          <tr>
+            <td>Mar 28, 2004</td>
+            <td>Cesar Chavez Day Parade, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 20, 2004</td>
+            <td>Anti-war march, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 7, 2004</td>
+            <td>Picket at Safeway with <a href="http://www.ufcw.org">UFCW</a>, Oakland</td>
+          </tr>
+          <tr>
+            <td>Feb 22, 2004</td>
+            <td>Picket at Safeway with <a href="http://www.ufcw.org">UFCW</a>, SF</td>
+          </tr>
+          <tr>
+            <td>Jan 17, 2004</td>
+            <td>Dr. Martin Luther King Labor Heritage Festival, Burlingame</td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="vertical-align: top;"><img style="width: 339px; height: 232px;" alt="march 20, 2003" src="images/blo.jpg" /></td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td>Oct 26, 2003</td>
+            <td>Red / Black soccer match, Berkeley</td>
+          </tr>
+          <tr>
+            <td>Oct 25, 2003</td>
+            <td>March Against Occupation, SF</td>
+          </tr>
+          <tr>
+            <td>Oct 22, 2003</td>
+            <td>National Day Against Police Brutality, SF</td>
+          </tr>
+          <tr>
+            <td>Oct 4, 2003</td>
+            <td>Food Not Bombs Serving / No on Prop 54, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 28, 2003</td>
+            <td>March Against Occupation, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 14, 2003</td>
+            <td>Red / Black soccer match, Berkeley</td>
+          </tr>
+          <tr>
+            <td>Sep 13, 2003</td>
+            <td>Flyering against WTO, Ferry Building Farmer&#8217;s Market, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 11, 2003</td>
+            <td>Circles of Peace, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 9, 2003</td>
+            <td>March and Direct Action at Chevron Refinery / Solidarity with Anti-WTO Protests in Cancun, Mexico, Richmond</td>
+          </tr>
+          <tr>
+            <td>Aug 15, 2003</td>
+            <td>Demonstration with outdoor screening of anti-war documentaries at Fox TV, Oakland</td>
+          </tr>
+          <tr>
+            <td>Aug 10, 2003</td>
+            <td>March and Protest at Livermore National Laboratory, Livermore</td>
+          </tr>
+          <tr>
+            <td>Jul 19, 2003</td>
+            <td>Protest at Bohemian Grove, Monte Rio</td>
+          </tr>
+          <tr>
+            <td>Jun 22, 2003</td>
+            <td>March &amp; Direct Action at USDA / WTO Agriculture Minister&#8217;s Meeting, Sacramento</td>
+          </tr>
+          <tr>
+            <td>Jun ?, 2003</td>
+            <td>Shut down of Oakland Docks to protest war profiteering , Oakland</td>
+          </tr>
+          <tr>
+            <td>Jun 5, 2003</td>
+            <td><a href="http://www.actagainstwar.org">Direct Action</a> at Bechtel HQ, SF</td>
+          </tr>
+          <tr>
+            <td>May 29, 2003</td>
+            <td>Rally against media consolidation in FCC, Clear Channel, SF</td>
+          </tr>
+          <tr>
+            <td>May 25, 2003</td>
+            <td>Carnaval block party in the Mission District, SF</td>
+          </tr>
+          <tr>
+            <td>May 2, 2003</td>
+            <td>Protest George W. Bush visit at United Technologies, Santa Clara</td>
+          </tr>
+          <tr>
+            <td>May 1, 2003</td>
+            <td>MAY DAY Support for Hotel workers at the Claremont with HERE Local 2850, Oakland</td>
+          </tr>
+          <tr>
+            <td>Apr 27, 2003</td>
+            <td>Concert at Mission Cultural Center with community poets and musicians, SF </td>
+          </tr>
+          <tr>
+            <td>Apr 26, 2003</td>
+            <td>Benefit for New College group going to Ecuador, SF </td>
+          </tr>
+          <tr>
+            <td>Apr 22, 2003</td>
+            <td><a href="http://www.actagainstwar.org">Direct Action</a> at Lockheed-Martin, Sunnyvale</td>
+          </tr>
+          <tr>
+            <td>Apr 12, 2003</td>
+            <td>March Against War on Iraq, SF </td>
+          </tr>
+          <tr>
+            <td>Apr 7, 2003</td>
+            <td><a href="http://www.actagainstwar.org">Direct Action</a> at the Oakland Docks to protest war profiteering, Oakland</td>
+          </tr>
+          <tr>
+            <td>Apr 5, 2003</td>
+            <td>March Against War on Iraq, Oakland&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Mar 27, 2003</td>
+            <td>Anarchist Cafe, SF </td>
+          </tr>
+          <tr>
+            <td>Mar 20-21, 2003</td>
+            <td><p><a href="http://www.actagainstwar.org">Direct Actions</a> to interrupt the war machine, SF (BLO goes to jail with 2500 others) </p>
+              </td>
+          </tr>
+          <tr>
+            <td>Mar 3, 2003</td>
+            <td>Lysistrata Project, Oakland</td>
+          </tr>
+          <tr>
+            <td>Mar 1, 2003</td>
+            <td>&#8220;Rock Out Against War&#8221; street performance, SF </td>
+          </tr>
+          <tr>
+            <td>Feb 25, 2003</td>
+            <td>Support for Coalition of Imokalee farm workers in Florida, Boycott Taco Bell, SF </td>
+          </tr>
+          <tr>
+            <td>Feb 15, 2003</td>
+            <td>March Against War on Iraq, SF</td>
+          </tr>
+          <tr>
+            <td>Feb 14, 2003</td>
+            <td><a href="http://www.actagainstwar.org">Direct Action</a> to shut down  Pacific Stock Exchange, SF</td>
+          </tr>
+          <tr>
+            <td>Jan 18, 2003</td>
+            <td>March Against War on Iraq, SF</td>
+          </tr>
+          <tr>
+            <td>Jan 17, 2003</td>
+            <td>Art opening, Mission Cultural Center, SF</td>
+          </tr>
+          <tr>
+			  <td></td>
+            <td style="vertical-align: top;"><img style="width: 428px; height: 290px;" alt="blo at Cesar Chavez parade" src="images/cesarchavez2" /></td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td>Oct 28, 2002</td>
+            <td style="vertical-align: top;">Bay Area Social Forum, SF</td>
+          </tr>
+          <tr>
+            <td>Oct 26, 2002</td>
+            <td>No War on Iraq March, ANSWER, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 28, 2002</td>
+            <td>Palestine Solidarity March, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 14, 2002</td>
+            <td>No War on Iraq March, ANSWER, SF</td>
+          </tr>
+          <tr>
+            <td>Sep 7, 2002</td>
+            <td>March for Racial Justice to the RJ911 Concert in Golden Gate Park, SF</td>
+          </tr>
+          <tr>
+            <td>Jun 6, 2002</td>
+            <td>March Against War (Not In Our Name), Berkeley</td>
+          </tr>
+          <tr>
+            <td>Apr 20, 2002</td>
+            <td>March Against War, ANSWER, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 24, 2002</td>
+            <td>Cesar Chavez Day March, SF</td>
+          </tr>
+          <tr>
+            <td>Mar 8, 2002</td>
+            <td>Taco Bell Boycott March with the Coalition of Imokalee Workers, Mission Street, SF</td>
+          </tr>
+        </tbody>
+      </table>
+<?php include('footer.php'); ?>
